@@ -48,6 +48,18 @@
         site: 'Sydney',
         general_ledger_code: '123 - GL Code'
     }
+  ],
+  attachments: [
+    {
+      id: 1,
+      filename: 'quote.pdf',
+      content_type: 'application/pdf',
+      content_length: 6398915,
+      # base64_content has been truncated for brevity
+      base64_content: 'iVBORw0KGgoAAAANSUhEUgAAAXUAAAKbCAYAAAAKWxqnAAAK5mlDQ1BJQ0MgUHJvZmlsZQAASImVlwdUU9kWhs+',
+      created_at: 2020-01-01,
+      updated_at: 2020-01-01
+    }
   ]
 }
 ```
@@ -99,6 +111,18 @@
         received_date: 2020-02-01,
         site: 'Sydney',
         general_ledger_code: '123 - GL Code'
+    }
+  ],
+  attachments: [
+    {
+      id: 1,
+      filename: 'quote.pdf',
+      content_type: 'application/pdf',
+      content_length: 6398915,
+      # base64_content has been truncated for brevity
+      base64_content: 'iVBORw0KGgoAAAANSUhEUgAAAXUAAAKbCAYAAAAKWxqnAAAK5mlDQ1BJQ0MgUHJvZmlsZQAASImVlwdUU9kWhs+',
+      created_at: 2020-01-01,
+      updated_at: 2020-01-01
     }
   ]
 }
