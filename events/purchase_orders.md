@@ -49,6 +49,7 @@
         general_ledger_code: '123 - GL Code'
     }
   ],
+  # attachments is limited to a maximum of 5
   attachments: [
     {
       id: 1,
@@ -113,6 +114,7 @@
         general_ledger_code: '123 - GL Code'
     }
   ],
+  # attachments is limited to a maximum of 5
   attachments: [
     {
       id: 1,
