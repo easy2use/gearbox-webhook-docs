@@ -41,6 +41,7 @@ Note: you do not need multiple entries for the one endpoint, simply subscribe to
 ## Events
 
 - [Inspections](events/inspections.md)
+- [Parts](events/parts.md)
 - [Prestarts](events/prestarts.md)
 - [Purchase Orders](events/purchase_orders.md)
 - [Repairs](events/repairs.md)
