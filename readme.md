@@ -48,3 +48,4 @@ Note: you do not need multiple entries for the one endpoint, simply subscribe to
 - [Services](events/services.md)
 - [Tyres](events/tyres.md)
 - [Vehicle Status](events/vehicle_status.md)
+- [Vehicles](events/vehicles.md)

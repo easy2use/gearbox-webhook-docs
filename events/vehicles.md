@@ -1,0 +1,113 @@
+# Vehicle Status Webhook
+
+## vehicle.created event
+
+```rb
+    {
+      id: 1,
+      fleet_number: "GBX123",
+      registration: "145GBX",
+      registration_due_date: "2024-02-06",
+      unregistered: false,
+      model: "Model A",
+      vin: 12345678901,
+      build_date: "2019",
+      spare1: "ABC123",
+      spare2: "",
+      spare3: "",
+      spare4: "",
+      spare5: "",
+      spare6: "",
+      spare7: "",
+      spare8: "",
+      spare9: "",
+      spare10: "",
+      spare11: "",
+      spare12: "",
+      spare13: "",
+      spare14: "",
+      spare15: "",
+      spare16: "",
+      spare17: "",
+      spare18: "",
+      spare19: "",
+      spare20: "",
+      powered: true,
+      engine_number: "ABC123",
+      engine_make: "Volvo",
+      engine_model: "D13",
+      engine_capacity: "5L",
+      gearbox: "123ABC",
+      sold: false,
+      service_group: "Cars",
+      group: "VIC",
+      sub_group: "Melbourne",
+      type: "Car",
+      make: "Honda",
+      configuration: "'A' Skel",
+      contractor: "Test Contractor",
+      owner: "Gearbox Transport",
+      allocation: {
+        status: "In Service",
+        site: "Sydney",
+        operator: "John Smith",
+        hourly_rate: 20.50
+      }
+    }
+```
+
+## vehicle.updated event
+
+```rb
+    {
+      id: 1,
+      fleet_number: "GBX123",
+      registration: "145GBX",
+      registration_due_date: "2024-02-06",
+      unregistered: false,
+      model: "Model A",
+      vin: 12345678901,
+      build_date: "2019",
+      spare1: "ABC123",
+      spare2: "",
+      spare3: "",
+      spare4: "",
+      spare5: "",
+      spare6: "",
+      spare7: "",
+      spare8: "",
+      spare9: "",
+      spare10: "",
+      spare11: "",
+      spare12: "",
+      spare13: "",
+      spare14: "",
+      spare15: "",
+      spare16: "",
+      spare17: "",
+      spare18: "",
+      spare19: "",
+      spare20: "",
+      powered: true,
+      engine_number: "ABC123",
+      engine_make: "Volvo",
+      engine_model: "D13",
+      engine_capacity: "5L",
+      gearbox: "123ABC",
+      sold: false,
+      service_group: "Cars",
+      group: "VIC",
+      sub_group: "Melbourne",
+      type: "Car",
+      make: "Honda",
+      configuration: "'A' Skel",
+      contractor: "Test Contractor",
+      owner: "Gearbox Transport",
+      allocation: {
+        status: "In Service",
+        site: "Sydney",
+        operator: "John Smith",
+        hourly_rate: 20.50
+      }
+    }
+```
