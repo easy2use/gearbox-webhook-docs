@@ -6,6 +6,7 @@
     {
       id: 1, # unique ID of the Fault Report
       employee: 'John Smith',
+      fault_number: 'F-123',
       fault_date: 'Sun, 11 Sep 2022 22:17:25.329000000 UTC +00:00',
       fault_type: 'Body',
       failed_item: '',
@@ -35,6 +36,7 @@
     {
       id: 1, # unique ID of the Fault Report
       employee: 'John Smith',
+      fault_number: 'F-123',
       fault_date: 'Sun, 11 Sep 2022 22:17:25.329000000 UTC +00:00',
       fault_type: 'Body',
       failed_item: '',
