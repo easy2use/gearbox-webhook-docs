@@ -40,6 +40,7 @@ Note: you do not need multiple entries for the one endpoint, simply subscribe to
 
 ## Events
 
+- [Fault Reports](events/fault_reports.md)
 - [Inspections](events/inspections.md)
 - [Parts](events/parts.md)
 - [Prestarts](events/prestarts.md)
